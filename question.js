@@ -6,5 +6,6 @@ var rl = readline.createInterface({
 
 rl.question("How's it going? ", function(answer) {
   console.log("Awesomesauce:", answer);
+  console.log(42);
   rl.close();
 });
