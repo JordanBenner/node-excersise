@@ -37,7 +37,7 @@ function subtract(x, y, callback){
 }
 subtract(2, 3, function(result){
   console.log(result);
-})
+});
 
 //cps function rewrites 3
 
@@ -45,4 +45,9 @@ function greeting(person, callback){
   return('hello ' + person + '!')
 }
 
-// problem 6
+// cps rewrites 4
+
+function hello(callback){
+  console.log('Hello, world!');
+  callback();
+}
