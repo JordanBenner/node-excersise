@@ -57,6 +57,6 @@ function hello(callback){
 function sum(numbers, callback){
   var result = numbers.reduce(function(a, b){
     return a + b;
-  }, 0);
+  }, 1);
   callback(result);
 }
