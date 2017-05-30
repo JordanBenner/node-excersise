@@ -18,4 +18,12 @@ result = convert([1, 8, 2, 4, 4]);
 // problem 4
 
 kick(can, function() {})
+});
+
+//problem 5
+
+function greeting(person, callback){
+  return('hello ' + person + '!')
 }
+
+// problem 6
