@@ -9,3 +9,5 @@ rl.question("How's it going? ", function(answer) {
   console.log(42);
   rl.close();
 });
+
+console.log('end of file')
