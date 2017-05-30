@@ -71,4 +71,19 @@ function square(num, callbacks){
 square(5, function(squared){
   console.log(squared);
 
-})
+});
+
+// nested callbacks 2
+var x = 4;
+var y = 3;
+var x2 = square(x);
+var y2 = square(y);
+var sum = x2 + y2;
+
+square(x, function(x2){
+  console.log(square);
+});
+
+square(y, function(y2){
+  console.log(square);
+});
