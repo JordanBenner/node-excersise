@@ -19,8 +19,17 @@ result = convert([1, 8, 2, 4, 4]);
 
 kick(can, function() {})
 });
+// cps rewrites 4
 
-//problem 5
+function add(x, y, callback){
+  var result = x + y;
+  callback(result);
+}
+add(2,3, function(result){
+  console.log(result);
+});
+
+//cps function rewrites 3
 
 function greeting(person, callback){
   return('hello ' + person + '!')
