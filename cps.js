@@ -19,7 +19,7 @@ result = convert([1, 8, 2, 4, 4]);
 
 kick(can, function() {})
 });
-// cps rewrites 4
+// cps rewrites 1
 
 function add(x, y, callback){
   var result = x + y;
@@ -28,6 +28,16 @@ function add(x, y, callback){
 add(2,3, function(result){
   console.log(result);
 });
+
+//cps rewrites 2
+
+function subtract(x, y, callback){
+  var result = x - y;
+  callback(result);
+}
+subtract(2, 3, function(result){
+  console.log(result);
+})
 
 //cps function rewrites 3
 
