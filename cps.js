@@ -60,3 +60,15 @@ function sum(numbers, callback){
   }, 1);
   callback(result);
 }
+
+// nested callbacks 1
+
+var squared = square(5);
+
+function square(num, callbacks){
+  callbacks(num*num);
+}
+square(5, function(squared){
+  console.log(squared);
+
+})
