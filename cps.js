@@ -50,4 +50,13 @@ function greeting(person, callback){
 function hello(callback){
   console.log('Hello, world!');
   callback();
+});
+
+//cps rewrites 5
+
+function sum(numbers, callback){
+  var result = numbers.reduce(function(a, b){
+    return a + b;
+  }, 0);
+  callback(result);
 }
