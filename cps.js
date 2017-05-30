@@ -9,17 +9,13 @@ g(a, b, c function(y)){
 });
 
 //problem 3
-
-function z(numbers, callback){
-  var result = numbers.convert(function(a, b, c, d, e){
-    return a + b + c + d + e;
-  }, 0);
-  callback(result);
+y = g(4.5, 0.2, true);
+g(4.5, 0.2, true, function ());
+result = convert([1, 8, 2, 4, 4]);
 
 });
 
 // problem 4
 
-function kick(can){
-  console.log(kick);
+kick(can, function() {})
 }
