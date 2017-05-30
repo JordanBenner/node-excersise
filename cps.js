@@ -15,4 +15,11 @@ function z(numbers, callback){
     return a + b + c + d + e;
   }, 0);
   callback(result);
+
+});
+
+// problem 4
+
+function kick(can){
+  console.log(kick);
 }
