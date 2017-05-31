@@ -1,0 +1,24 @@
+{
+  "name": "npm-excersise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanBenner/node-excersise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanBenner/node-excersise/issues"
+  },
+  "homepage": "https://github.com/JordanBenner/node-excersise#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "markdown": "^0.5.0"
+  }
+}
