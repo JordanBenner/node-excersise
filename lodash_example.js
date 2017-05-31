@@ -7,6 +7,7 @@
 
 // Load method categories.
 var shuffle = require('lodash/shuffle');
+console.log(sh([1, 3, 9]));
 
 // // Cherry-pick methods for smaller browserify/rollup/webpack bundles.
 // var at = require('lodash/at');
