@@ -1,6 +1,6 @@
-var sum = require('lodash/sum');
-
-console.log(sum([1, 3, 9]));
+// var sum = require('lodash/sum');
+//
+// console.log(sum([1, 3, 9]));
 
 
 var max = require('lodash/max');
