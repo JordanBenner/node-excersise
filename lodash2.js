@@ -17,3 +17,9 @@ forEach([1, 2], function(value) {
 forEach({ 'a': 1, 'b': 2 }, function(value, key) {
   console.log(key);
 });
+
+var request = require('request');
+var cheerio = require('cheerio');
+module.exports function(x,y){
+  console.log()
+}
